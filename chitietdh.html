@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi Tiết Sản Phẩm - Áo Dài NTT</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="top-bar d-none d-md-flex">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <i class="bi bi-telephone-fill"></i> Hotline: 012.345.6789
+                </div>
+                <div class="col-md-6 text-end">
+                    <i class="bi bi-gift-fill"></i> NHẬN GIẢM GIÁ 10% CHO NHỮNG KHÁCH HÀNG ĐẦU TIÊN
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header id="main-header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo.png" alt="NTT Áo Dài Logo">
+                </a>
+                
+                <div class="header-icons d-flex d-lg-none">
+                    <a href="#" class="search-icon-trigger"><i class="bi bi-search"></i></a>
+                    <a href="#"><i class="bi bi-person-circle"></i></a>
+                    <a href="#"><i class="bi bi-bag"></i></a>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">TRANG CHỦ</a> 
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                BỘ SƯU TẬP
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="bosuutap-giaoduyen.html">Giao Duyên</a></li>
+                                <li><a class="dropdown-item" href="bosuutap-duyenhoa.html">Duyên Hoa</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cautaoaodai.html">CẤU TẠO ÁO DÀI</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="khachhang.html">KHÁCH HÀNG CỦA NTT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="aboutme.html">VỀ CHÚNG TÔI</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="header-icons d-none d-lg-flex">
+                    <a href="#" class="search-icon-trigger"><i class="bi bi-search"></i></a>
+                    <a href="#"><i class="bi bi-person-circle"></i></a>
+                    <a href="#"><i class="bi bi-bag"></i></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="search-overlay">
+        <button id="close-search-btn">&times;</button>
+        <form>
+            <input type="text" placeholder="Tìm kiếm sản phẩm...">
+            <button type="submit"><i class="bi bi-search"></i></button>
+        </form>
+    </div>
+
+    <main class="product-detail-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="product-gallery-vertical">
+                        <div class="thumbnail-col">
+                            <img src="images/bstduyenhoa/xanh.jpeg" class="thumbnail-img active" alt="Thumb 1">
+                            <img src="images/chitiet/dh1.jpeg" class="thumbnail-img" alt="Thumb 2">
+                            <img src="images/chitiet/dh2.jpeg" class="thumbnail-img" alt="Thumb 3">
+                            <img src="images/chitiet/dh3.jpeg" class="thumbnail-img" alt="Thumb 4">
+                            <img src="images/chitiet/dh4.jpeg" class="thumbnail-img" alt="Thumb 5">
+                        </div>
+                        <div class="main-image-col">
+                            <img src="images/bstduyenhoa/xanh.jpeg" id="main-product-image" class="img-fluid" alt="Áo dài đỏ">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5">
+                    <div class="product-info-details">
+                        <h1 class="product-detail-title">Duyên - Xanh hoa dây</h1>
+                        <div class="product-meta">
+                            <span>Thương hiệu: NTT Áo Dài</span>
+                            <span>Mã SP: NTT-001</span>
+                        </div>
+                        <p class="product-detail-price">2.100.000 VNĐ</p>
+                        
+                        <div class="selector-group">
+                            <label>Kích Cỡ:</label>
+                            <div class="size-selector">
+                                <button class="size-option active">MAY ĐO</button>
+                                <button class="size-option">THUÊ</button>
+                            </div>
+                        </div>
+
+                        <div class="selector-group">
+                            <label>Số Lượng:</label>
+                            <div class="quantity-selector">
+                                <button class="quantity-btn" id="qty-minus">-</button>
+                                <input type="number" id="qty-input" value="1" min="1">
+                                <button class="quantity-btn" id="qty-plus">+</button>
+                            </div>
+                        </div>
+
+                        <div class="button-group">
+                            <a href="giohang.html" class="btn-add-to-cart">Thêm vào giỏ hàng</a>
+                            <a href="thanhtoan.html" class="btn-checkout-now">MUA HÀNG</a>
+                        </div>
+
+                        <div class="product-tabs">
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="desc-tab" data-bs-toggle="tab" data-bs-target="#desc" type="button">Mô Tả Sản Phẩm</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="shipping-tab" data-bs-toggle="tab" data-bs-target="#shipping" type="button">Vận Chuyển</button>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="desc" role="tabpanel">
+                                    <p>Chất liệu: Lụa satin cao cấp | Taffeta.<br>Màu: Xanh.<br>Hướng dẫn bảo quản trang phục:<br> + Giặt hấp hoặc giặt tay, vắt nhẹ nhàng.<br> + Ngâm riêng sản phẩm sáng màu và tối màu.</p>
+                                </div>
+                                <div class="tab-pane fade" id="shipping" role="tabpanel">
+                                    <p>Miễn phí vận chuyển toàn quốc cho đơn hàng trên 1.000.000 VNĐ. Giao hàng trong 3-5 ngày làm việc.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="product-grid container my-5 py-5">
+            <h2 class="text-center section-title">Có thể bạn thích</h2>
+            
+            <div class="row g-4 mt-4">
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="product-card">
+                        <img src="images/xanhcovit.jpeg" class="img-fluid" alt="Sản phẩm 1">
+                        <div class="product-info">
+                            <h5 class="product-name">Duyên - Xanh Cổ Vịt</h5>
+                            <p class="product-price">2.200.000 VNĐ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="product-card">
+                        <img src="images/hongphan.jpeg" class="img-fluid" alt="Sản phẩm 2">
+                        <div class="product-info">
+                            <h5 class="product-name">Duyên - Hồng Phấn</h5>
+                            <p class="product-price">1.350.000 VNĐ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="product-card">
+                        <img src="images/gamtrang.jpeg" class="img-fluid" alt="Sản phẩm 3">
+                        <div class="product-info">
+                            <h5 class="product-name">Duyên - Mẫu Gấm Trắng</h5>
+                            <p class="product-price">2.500.000 VNĐ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="product-card">
+                        <img src="images/vangdong.jpeg" class="img-fluid" alt="Sản phẩm 4">
+                        <div class="product-info">
+                            <h5 class="product-name">Duyên - Gấm Vàng Đồng</h5>
+                            <p class="product-price">3.100.000 VNĐ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 mb-4 text-center text-lg-start">
+                    <img src="images/logo.png" alt="NTT Áo Dài Logo" class="footer-logo mb-3"> 
+                    <p>Áo dài tôn vinh truyền thống dân tộc, kết tinh từ đam mê thời trang và tình yêu với nét đẹp truyền thống.</p>
+                    <div class="social-icons mt-4">
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                    </div>
+                </div>
+    
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5 class="footer-title">ĐỊA CHỈ</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-geo-alt-fill me-2"></i> ÁO DÀI NTT: 80/70/3 Huỳnh Văn Nghệ, Phường Tân Bình, TP.HCM</li>
+                        <li><i class="bi bi-envelope-fill me-2"></i> EMAIL: nttaodai@gmail.com</li>
+                        <li><i class="bi bi-clock-fill me-2"></i> GIỜ MỞ CỬA: 9:00 - 21:30 TẤT CẢ CÁC NGÀY</li>
+                    </ul>
+                </div>
+    
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5 class="footer-title">THÔNG TIN</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Hướng dẫn giặt là</a></li>
+                        <li><a href="#">Hướng dẫn đặt hàng</a></li>
+                        <li><a href="#">Điều khoản bảo mật</a></li>
+                        <li><a href="#">Câu hỏi thường gặp</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom text-center py-3">
+            Copyright &copy; 2025 NTT Áo Dài. Gcoded by Đan.
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

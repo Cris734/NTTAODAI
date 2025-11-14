@@ -16,7 +16,17 @@
 <body>
 
     <div class="top-bar d-none d-md-flex">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <i class="bi bi-telephone-fill"></i> Hotline: 012.345.6789
+                </div>
+                <div class="col-md-6 text-end">
+                    <i class="bi bi-gift-fill"></i> NHẬN GIẢM GIÁ 10% CHO NHỮNG KHÁCH HÀNG ĐẦU TIÊN
+                </div>
+            </div>
         </div>
+    </div>
 
     <header id="main-header">
         <nav class="navbar navbar-expand-lg">
@@ -69,7 +79,13 @@
         </nav>
     </header>
 
-    <div id="search-overlay"> ... </div>
+    <div id="search-overlay">
+        <button id="close-search-btn">&times;</button>
+        <form>
+            <input type="text" placeholder="Tìm kiếm sản phẩm...">
+            <button type="submit"><i class="bi bi-search"></i></button>
+        </form>
+    </div>
 
     <main class="cautao-page">
         <section class="infographic-hero-v2">
@@ -125,7 +141,41 @@
     </main>
 
     <footer class="main-footer">
-        </footer>
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 mb-4 text-center text-lg-start">
+                    <img src="images/logo.png" alt="NTT Áo Dài Logo" class="footer-logo mb-3"> 
+                    <p>Áo dài tôn vinh truyền thống dân tộc, kết tinh từ đam mê thời trang và tình yêu với nét đẹp truyền thống.</p>
+                    <div class="social-icons mt-4">
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                    </div>
+                </div>
+    
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5 class="footer-title">ĐỊA CHỈ</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-geo-alt-fill me-2"></i> ÁO DÀI NTT: 80/70/3 Huỳnh Văn Nghệ, Phường Tân Bình, TP.HCM</li>
+                        <li><i class="bi bi-envelope-fill me-2"></i> EMAIL: nttaodai@gmail.com</li>
+                        <li><i class="bi bi-clock-fill me-2"></i> GIỜ MỞ CỬA: 9:00 - 21:30 TẤT CẢ CÁC NGÀY</li>
+                    </ul>
+                </div>
+    
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5 class="footer-title">THÔNG TIN</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Hướng dẫn giặt là</a></li>
+                        <li><a href="#">Hướng dẫn đặt hàng</a></li>
+                        <li><a href="#">Điều khoản bảo mật</a></li>
+                        <li><a href="#">Câu hỏi thường gặp</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom text-center py-3">
+            Copyright &copy; 2025 NTT Áo Dài. Gcoded by Đan.
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
